@@ -53,7 +53,7 @@ export default function MetricDropDown(props)
 
             </div>
 
-            
+            <div className="style-graph-2">
 
             <div>
                 <p>Network Usage</p>
@@ -63,6 +63,8 @@ export default function MetricDropDown(props)
             <div>
                 <p>Disk IOPs</p>
             <DiskIOPsChart minutes={timee}/>
+            </div>
+
             </div>
 
             {/* <button onClick={()=>setTimee(5)}>Last 5 minutes</button>
