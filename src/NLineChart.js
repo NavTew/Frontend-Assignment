@@ -62,10 +62,10 @@ const NLineChart = ({ minutes }) => {
       },
     });
 
-    // Store the chart instance in the ref
+  
     chartRef.current = newChart;
 
-    // Cleanup function
+   
     return () => {
       if (chartRef.current) {
         chartRef.current.destroy();

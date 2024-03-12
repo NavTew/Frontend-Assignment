@@ -13,13 +13,9 @@ export default function MyDropDown(props)
 
     return (
         <>
-        <ul className="drop-down">
+        <div className="drop-down">
             
 
-            {/* <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
-            Show Logs For
-            </Dropdown.Toggle> */}
             <div className="check">
             <DropdownButton className="dropdown" key="secondary" variant="secondary" title="Show previous">
             <Dropdown.Item href="#/last5minutes" onClick={()=>setTimee(5)}>Last 5 minutes</Dropdown.Item>
@@ -31,16 +27,10 @@ export default function MyDropDown(props)
         </DropdownButton>
         </div>
 
-        </ul>
+        </div>
 
         <LogsComponent time={timee}/>
 
-            {/* <button onClick={()=>setTimee(5)}>Last 5 minutes</button>
-            <button onClick={()=>setTimee(15)}>Last 15 minutes</button>
-            <button onClick={()=>setTimee(30)}>Last 30 minutes</button>
-            <button onClick={()=>setTimee(60)}>Last 1 hour</button>
-            <button onClick={()=>setTimee(180)}>Last 3 hours</button>
-            <button onClick={()=>setTimee(360)}>Last 6 hours</button> */}
 
            </> 
             
