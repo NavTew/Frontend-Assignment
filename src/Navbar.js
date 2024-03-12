@@ -14,7 +14,7 @@ export default function Navbar()
     <div className="nbar">
     <nav className="nav">
         <Link to="/" className="site-title">
-        <img className="logo" src={require('.//assets/myTrueFoundryLogo.png')} />
+        <img className="logo" alt="logo" src={require('.//assets/myTrueFoundryLogo.png')} />
             
         
             <CustomLink to="/metrics">

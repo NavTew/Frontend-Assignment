@@ -5,7 +5,7 @@ export default function LogsPage()
     
     <div className="logs-div">
     
-    <img className="logs-logo" src={require('.//assets/list-active.png')} />
+    <img className="logs-logo" alt="logo" src={require('.//assets/list-active.png')} />
     <p className="nBarLogs">
     
         LOGS</p>
